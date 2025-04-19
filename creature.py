@@ -6,4 +6,4 @@ class Createure:
         self.defense = defense
 
     def __str__(self):
-        return f"{self.name} (Health: {self.health}, Attack: {self.attack}, Defense: {self.defense})"
+        return f"{self.name} (Health: {self.health} ---- Attack: {self.attack}, Defense: {self.defense})"
